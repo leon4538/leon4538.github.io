@@ -1,0 +1,32 @@
+body{ background-image: url(https://cdn.pixabay.com/photo/2019/11/08/11/56/kitten-4611189_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+h1{ background-color: rgb(219, 202, 160, .75); 
+      color:  rgb(84, 69, 51, 1); 
+      text-align: center;
+      padding: 15px;
+      border-top: 5px solid darkred;
+      border-bottom: 5px solid darkred;
+      margin: 0px 50px;
+      font-size: 4vw;
+      width: 75%;
+      margin: 0 auto; /*centers block element*/
+      font-size: 3rem;
+      font-family: 'Sofia' ; }
+
+img{ border: 4px dotted rgb(219, 202, 160, 1);
+        padding: 3px;
+        margin: 5px;
+        border-radius: 55px;
+        max-width: 100%;
+        height:  auto; }
+
+main { width: 75%;
+        margin: 0 auto; }
+
+a {color:  black;
+        font-size: .75rem }
+
+ul { background-color: rgb(219, 202, 160, .75);
+      color: rgb(84, 69, 51, 1); }

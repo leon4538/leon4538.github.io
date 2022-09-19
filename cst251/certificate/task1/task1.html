@@ -1,0 +1,108 @@
+<h1 id="title"> Tattoo Survey </h1>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body{
+        background-image: url(https://cdn.pixabay.com/photo/2020/04/19/08/17/watercolor-5062356_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+      h1{ 
+      background-color: rgb(29, 64, 110, 1); 
+      color:  rgb(240, 247, 255, 1); 
+      text-align: center;
+      padding: 15px;}
+
+      p{ text-align: center;
+        color:  rgb(240, 247, 255, 1);
+        padding: 10px; }
+
+      form{background-color: rgb(29, 64, 110, .70);
+      color:  rgb(240, 247, 255, 1);
+      text-align: center;
+      padding: 15px;
+      line-height: 2 }
+
+      ul { background-color: rgb(219, 202, 160, .75);
+      color: rgb(84, 69, 51, 1); }
+    </style>
+  </head>
+
+  <p id="description"> Tattoos can be a fun way to express yourself! Do you have plans to get one anytime soon? Or does the thought of getting one make you ink?
+</p>
+
+<form id="survey-form">
+
+<section> 
+  <label id="name-label"> Name:
+    <input required
+    id="name" type="text" name="username"
+    placeholder="Enter your name" >
+  </label>
+</section>
+
+<section>
+  <label id="email-label"> Email:
+    <input required
+    id="email" type="email" 
+    placeholder="Enter your email" >
+  </label>
+</section>
+
+<section>
+  <label id="number-label"> Age (optional):
+    <input
+    id="number" type="number" 
+    placeholder="Age"
+    min="12"
+    max="100">
+  </label>
+</section> 
+
+<section>
+  <legend>Do you have any tattoos already?</legend>
+    <input type="radio"  name="existing"  value="Y"> Yes
+    <input type="radio"  name="existing"  value="N"> No
+</section>
+
+<section>
+  <label id="number-label"> Number of tattoos (if applicable):
+    <input
+    id="number" type="number" 
+    placeholder="# of tattoos"
+    min="1"
+    max="100">
+  </label>
+ </section>
+
+<section>
+  <label id="dropdown-label"> Would you get a/another tattoo?:
+  <select id="dropdown" name="os">
+    <option> Select One </option>
+    <option selected> Yes </option>
+    <option> No </option>
+    <option> Possibly </option>
+  </select>
+</section>
+
+<section>
+  <label id="checkbox-label"> Would you get a tattoo for a... (Check all that apply)
+</section>
+  <input type="checkbox"  name="for"  value="family"> family member?
+  <input type="checkbox"  name="for"  value="love"> significant other?
+  <input type="checkbox"  name="for"  value="pet"> pet?
+  <input type="checkbox"  name="for"  value="friend"> friend?
+  <input type="checkbox"  name="for"  value="celeb"> celebrity?
+  <input type="checkbox"  name="for"  value="teacher"> teacher?
+
+<section>
+  <label id="button-label"> Any other comments/questions/thoughts?
+</section> 
+<textarea>Enter your comment here...
+  </textarea> 
+
+<button id="submit" type="submit"> Submit </button>
+
+</form>
