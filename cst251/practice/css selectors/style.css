@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+#cd-fig { 
+	position: relative;
+	width: 300px; }
+
+#cd-fig:hover #cd-overlay { 
+	display: block; }
+
+#cd-overlay {
+	position: absolute;
+	top: 10px; 
+	left: 10px;
+	background-color: chocolate;
+	font-size: 1rem;
+	display: none;
+	overflow: scroll; }
+
+img{ 
+      width: 100px; }
+
+ footer{ 
+      background-color: darkblue; }
+
+    footer img{ 
+      width: 200px; }
+
+    main img{ 
+      width: 300px; }
+	
+	nav ul{
+	  background-color: aquamarine; }
+	  
+	#cd-img{ 
+	  border-top-left-radius: 45px;
+	  border-top-right-radius: 45px;
+	  border: 10px double purple; }
+	  
+	#cs-img{
+	  border-bottom-left-radius: 45px;
+	  border-bottom-right-radius: 45px;
+	  border: 10px double purple;}
+	
+	.minorprogram-img{
+	  border: 10px double #445946; }
+	 
+	span.highlight{ 
+	  background-color: bisque;
+	  font-size: 1.25rem; }
